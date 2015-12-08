@@ -100,11 +100,8 @@ boot(void)
 	kprintf("OS/161 base system version %s\n", BASE_VERSION);
 	kprintf("%s", harvard_copyright);
 	kprintf("\n");
-	kprintf("Austin");
+	kprintf("Austin rules");
 	kprintf("\n");
-
-	kprintf("Put-your-group-name-here's system version %s (%s #%d)\n", 
-		GROUP_VERSION, buildconfig, buildversion);
 	kprintf("\n");
 
 	/* Early initialization. */
