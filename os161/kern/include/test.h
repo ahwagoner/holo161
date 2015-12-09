@@ -76,6 +76,7 @@ int createstress(int, char **);
 int printfile(int, char **);
 
 /* other tests */
+int ggtest(int, char**);
 int malloctest(int, char **);
 int mallocstress(int, char **);
 int nettest(int, char **);

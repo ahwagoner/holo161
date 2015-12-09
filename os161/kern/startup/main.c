@@ -49,8 +49,8 @@
 #include <syscall.h>
 #include <test.h>
 #include <version.h>
-#include "autoconf.h"  // for pseudoconfig
-
+#include "hello.c"
+#include "autoconf.h"  // for pseudoc
 
 /*
  * These two pieces of data are maintained by the makefiles and build system.
@@ -103,6 +103,7 @@ boot(void)
 	kprintf("Austin rules");
 	kprintf("\n");
 	kprintf("\n");
+	hello();
 
 	/* Early initialization. */
 	ram_bootstrap();
