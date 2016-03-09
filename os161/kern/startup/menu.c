@@ -453,14 +453,17 @@ cmd_opsmenu(int n, char **a)
 }
 
 static const char *testmenu[] = {
-    "[gg]  Print something awesome        ",
+    "[gg]  Print something awesome       ",
     "[at]  Array test                    ",
     "[bt]  Bitmap test                   ",
+    "[pst] Print Some Threads            ",
+    "[us] Unsafe thread counter          ",
     "[km1] Kernel malloc test            ",
     "[km2] kmalloc stress test           ",
     "[tt1] Thread test 1                 ",
     "[tt2] Thread test 2                 ",
     "[tt3] Thread test 3                 ",
+
 #if OPT_NET
     "[net] Network test                  ",
 #endif
@@ -568,10 +571,13 @@ static struct {
     { "bt",     bitmaptest },
     { "km1",    malloctest },
     { "km2",    mallocstress },
+    { "us",    threadcounter },
 #if OPT_NET
     { "net",    nettest },
 #endif
     { "tt1",    threadtest },
+
+   { "pst",     threadfun  },
     { "tt2",    threadtest2 },
     { "tt3",    threadtest3 },
     { "sy1",    semtest },

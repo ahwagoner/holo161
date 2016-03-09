@@ -435,9 +435,11 @@ file		test/arraytest.c
 file		test/bitmaptest.c
 file		test/threadtest.c
 file		test/tt3.c
+file  		test/threadcounter.c
 file		test/synchtest.c
 file		test/malloctest.c
 file		test/fstest.c
+file        test/threadfun.c
 optfile net	test/nettest.c
 # UW Mod
 file    test/uw-tests.c

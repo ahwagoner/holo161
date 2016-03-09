@@ -8,10 +8,12 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:quit!
+:quit
+:q
 :q!
 :Q!
 :.,.+1!
-:q
 :qqq
 :wq
 :w
@@ -26,16 +28,23 @@
 
 # Registers:
 ""-	CHAR	0
-	 
+	}
 
 # File marks:
-'0  459  37  ~/os161/kern/startup/menu.c
-'1  54  0  ~/os161/root/include/kern/sfs.h
-'2  58  0  ~/os161/root/include/kern/sfs.h
-'3  52  15  ~/os161/kern/startup/main.c
-'4  107  0  ~/os161/kern/startup/main.c
+'0  110  0  ~/os161/kern/arch/mips/vm/dumbvm.c
+'1  1  0  ~/os161/kern/include/ggtest.h
+'2  1  0  ~/os161/kern/include/ggtest
+'3  459  37  ~/os161/kern/startup/menu.c
+'4  54  0  ~/os161/root/include/kern/sfs.h
+'5  58  0  ~/os161/root/include/kern/sfs.h
+'6  52  15  ~/os161/kern/startup/main.c
+'7  107  0  ~/os161/kern/startup/main.c
 
 # Jumplist (newest first):
+-'  110  0  ~/os161/kern/arch/mips/vm/dumbvm.c
+-'  1  0  ~/os161/kern/arch/mips/vm/dumbvm.c
+-'  1  0  ~/os161/kern/include/ggtest.h
+-'  1  0  ~/os161/kern/include/ggtest
 -'  459  37  ~/os161/kern/startup/menu.c
 -'  1  0  ~/os161/kern/startup/menu.c
 -'  54  0  ~/os161/root/include/kern/sfs.h
@@ -68,8 +77,83 @@
 -'  52  15  ~/os161/kern/startup/main.c
 -'  1  0  ~/os161/kern/startup/main.c
 -'  107  0  ~/os161/kern/startup/main.c
+-'  459  37  ~/os161/kern/startup/menu.c
+-'  1  0  ~/os161/kern/startup/menu.c
+-'  54  0  ~/os161/root/include/kern/sfs.h
+-'  1  0  ~/os161/root/include/kern/sfs.h
+-'  58  0  ~/os161/root/include/kern/sfs.h
+-'  52  15  ~/os161/kern/startup/main.c
+-'  1  0  ~/os161/kern/startup/main.c
+-'  107  0  ~/os161/kern/startup/main.c
+-'  52  15  ~/os161/kern/startup/main.c
+-'  1  0  ~/os161/kern/startup/main.c
+-'  107  0  ~/os161/kern/startup/main.c
+-'  52  15  ~/os161/kern/startup/main.c
+-'  1  0  ~/os161/kern/startup/main.c
+-'  107  0  ~/os161/kern/startup/main.c
+-'  52  15  ~/os161/kern/startup/main.c
+-'  1  0  ~/os161/kern/startup/main.c
+-'  107  0  ~/os161/kern/startup/main.c
+-'  54  0  ~/os161/root/include/kern/sfs.h
+-'  1  0  ~/os161/root/include/kern/sfs.h
+-'  58  0  ~/os161/root/include/kern/sfs.h
+-'  52  15  ~/os161/kern/startup/main.c
+-'  1  0  ~/os161/kern/startup/main.c
+-'  107  0  ~/os161/kern/startup/main.c
+-'  52  15  ~/os161/kern/startup/main.c
+-'  1  0  ~/os161/kern/startup/main.c
+-'  107  0  ~/os161/kern/startup/main.c
+-'  52  15  ~/os161/kern/startup/main.c
+-'  1  0  ~/os161/kern/startup/main.c
+-'  107  0  ~/os161/kern/startup/main.c
+-'  52  15  ~/os161/kern/startup/main.c
+-'  1  0  ~/os161/kern/startup/main.c
+-'  107  0  ~/os161/kern/startup/main.c
+-'  1  0  ~/os161/kern/include/ggtest
+-'  459  37  ~/os161/kern/startup/menu.c
+-'  1  0  ~/os161/kern/startup/menu.c
+-'  54  0  ~/os161/root/include/kern/sfs.h
+-'  1  0  ~/os161/root/include/kern/sfs.h
+-'  58  0  ~/os161/root/include/kern/sfs.h
+-'  52  15  ~/os161/kern/startup/main.c
+-'  1  0  ~/os161/kern/startup/main.c
+-'  107  0  ~/os161/kern/startup/main.c
+-'  52  15  ~/os161/kern/startup/main.c
+-'  1  0  ~/os161/kern/startup/main.c
+-'  107  0  ~/os161/kern/startup/main.c
+-'  52  15  ~/os161/kern/startup/main.c
+-'  1  0  ~/os161/kern/startup/main.c
+-'  107  0  ~/os161/kern/startup/main.c
+-'  52  15  ~/os161/kern/startup/main.c
+-'  1  0  ~/os161/kern/startup/main.c
+-'  107  0  ~/os161/kern/startup/main.c
+-'  54  0  ~/os161/root/include/kern/sfs.h
+-'  1  0  ~/os161/root/include/kern/sfs.h
+-'  58  0  ~/os161/root/include/kern/sfs.h
+-'  52  15  ~/os161/kern/startup/main.c
+-'  1  0  ~/os161/kern/startup/main.c
+-'  107  0  ~/os161/kern/startup/main.c
+-'  52  15  ~/os161/kern/startup/main.c
+-'  1  0  ~/os161/kern/startup/main.c
+-'  107  0  ~/os161/kern/startup/main.c
+-'  52  15  ~/os161/kern/startup/main.c
+-'  1  0  ~/os161/kern/startup/main.c
+-'  107  0  ~/os161/kern/startup/main.c
+-'  52  15  ~/os161/kern/startup/main.c
+-'  1  0  ~/os161/kern/startup/main.c
 
 # History of marks within files (newest to oldest):
+
+> ~/os161/kern/arch/mips/vm/dumbvm.c
+	"	110	0
+	.	107	0
+	+	107	0
+
+> ~/os161/kern/include/ggtest.h
+	"	1	0
+
+> ~/os161/kern/include/ggtest
+	"	1	0
 
 > ~/os161/kern/startup/menu.c
 	"	459	37
